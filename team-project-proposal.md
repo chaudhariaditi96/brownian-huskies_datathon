@@ -5,10 +5,10 @@
 - **Team name:**
 Brownian Huskies
 - **Team members:**
-- Aditi Chaudhari - chaudhari.adit@northeastern.edu
-- Christine
-- Jason Liu - liu.liangc@northeastern.edu
-- Ruchika Mudraganam - mudraganam.r@northeastern.edu
+  Aditi Chaudhari - chaudhari.adit@northeastern.edu
+  Christine
+  Jason Liu - liu.liangc@northeastern.edu
+  Ruchika Mudraganam - mudraganam.r@northeastern.edu
 
 ## Project Title
 Investigating Differential Gene Expression, Cell-Type-Specific Signaling and Potential Intercellular Communication in Early-Onset Preeclampsia
