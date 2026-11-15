@@ -6,7 +6,7 @@
 Brownian Huskies
 - **Team members:**
 - Aditi Chaudhari - chaudhari.adit@northeastern.edu
-- Christine
+- Christine - yaoting98@gmail.com
 - Jason Liu - liu.liangc@northeastern.edu
 - Ruchika Mudraganam - mudraganam.r@northeastern.edu
 
