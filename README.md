@@ -30,7 +30,7 @@ OpenBio 2026 Datathon, Track 1: Maternal-Fetal Cell Communication in Preeclampsi
 - Notebook: `Brownian_Huskey.ipynb`
 - Where we ran it: our own computer (macOS, Python 3.11.15, conda environment); the notebook also runs on Google Colab
 - Package versions: PyDESeq2 0.5.4, LIANA 1.10.0
-- Random seeds: no random seed is set in the notebook
+- Random seeds: seed 0 for jitter in the per-placenta figure (Section 10.5c)
 
 ## Files
 | Path | Contents |
