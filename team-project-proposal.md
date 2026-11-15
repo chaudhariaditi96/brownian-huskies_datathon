@@ -3,11 +3,16 @@
 ## Team Information
 
 - **Team name:**
+Brownian Huskies
 - **Team members:**
+  Aditi Chaudhari - chaudhari.adit@northeastern.edu
+  Christine
+  Jason Liu - liu.liangc@northeastern.edu
+  Ruchika Mudraganam - mudraganam.r@northeastern.edu
 - **Contact email:**
 
 ## Project Title
-
+Investigating Differential Gene Expression, Cell-Type-Specific Signaling and Potential Intercellular Communication in Early-Onset Preeclampsia
 ## Problem Statement
 
 What problem are you trying to solve? Why is it important?
