@@ -1,8 +1,7 @@
 # Analysis Plan
 
 ## Research Question
-
-State your specific research question clearly.
+What might gene activity reveal about communication between placental cells in preeclampsia?
 
 ## Datasets
 
@@ -10,7 +9,15 @@ List the datasets you will use (see the data catalog).
 
 | Dataset ID | Role | Why This Dataset |
 |---|---|---|
-| | | |
+| GSE203507 bulk RNA-seq | 30 villous tissue samples (15 early-onset PE, 15 no_PE); 26,485 genes | Main analysis |
+| Admati/Skarbianskis single-cell | 26 donors (17 PE, 9 control), 14 cell classes; provided as pseudobulk and as the gene browser | Cell-level analysis (one source, not two independent datasets) |
+| Marker table | 9 cell classes, 4 markers each | First assessment of cell mix vs behavior |
+| LIANA consensus ligand–receptor resource (LIANA 1.10.0) | 4,620 ligand–receptor pairs | Defines signaling genes; ligand–receptor analysis |
+
+
+GSE203507 bulk RNA-seq (core) and Admati/Skarbianskis single-cell data (pseudobulk extension and gene browser), provided by the OpenBio 2026 Datathon.
+
+
 
 ## Methods
 
