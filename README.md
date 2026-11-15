@@ -22,8 +22,11 @@ Exploratory: which ligand–receptor pairs between cell types change in PE?
 ## Data Used
 
 [x] GSE203507 bulk RNA-seq (required)
+
 [x] Zeisel/Admati gene browser, for at least three genes (required)
+
 [x] Admati/Skarbianskis single-cell pseudobulk files (optional)
+
 [x] LIANA consensus ligand–receptor resource (LIANA [1.10.0])
 
 
