@@ -32,7 +32,7 @@ We identified **348 genes** with statistically supported differences in activity
 
 Of the 348 differentially expressed genes, **65 were annotated as ligands or receptors**, molecules involved in sending or receiving cellular signals. That was **18.7%** of the differentially expressed genes, compared with **7.7%** of the tested background. A statistical enrichment test suggested this concentration was unlikely to occur by chance alone (odds ratio **2.86**; Fisher's exact *p* = **1.3 × 10⁻¹¹**). This does **not** mean we observed cells communicating differently. It means genes associated with communication were overrepresented among the tissue-level differences.
 
-![Chart comparing the proportion of ligand or receptor genes among differentially expressed genes and all tested genes.](../figures/signaling\_enrichment.png)
+![Chart comparing the proportion of ligand or receptor genes among differentially expressed genes and all tested genes.](../figures/fig_cell_proportions.png)
 
 *Figure 3. **Signaling-related genes are enriched among the placental differences.** Ligand- or receptor-annotated genes accounted for 18.7% of differentially expressed genes versus 7.7% of the tested background. The chart should label both groups and show the percentages clearly.*
 
@@ -42,7 +42,7 @@ We examined **FLT1, ENG, LEP, INHBA, and CADM3** more closely. The first four sh
 
 The next question was which placental cells might account for those differences. In the separate cell-resolved dataset, all five genes changed in the **same direction** within **syncytiotrophoblasts**, cells forming the outer layer of placental villi in contact with maternal blood. However, **none of the five reached statistical significance within any individual cell class**. Agreement in direction is a clue, not proof that a particular cell type is responsible.
 
-![Comparison of the five selected genes in whole placentas and syncytiotrophoblast-derived pseudobulk samples.](../figures/five\_gene\_comparison.png)
+![Comparison of the five selected genes in whole placentas and syncytiotrophoblast-derived pseudobulk samples.](../figures/fig_pseudobulk_heatmap.png)
 
 *Figure 4. **Five candidate genes show matching directions, but cell-specific changes are not confirmed.** Plot the bulk-tissue and syncytiotrophoblast pseudobulk log2 fold changes for FLT1, ENG, LEP, INHBA, and CADM3. Positive values indicate higher activity in preeclampsia. Negative values indicate lower activity. State in the figure that the within-cell-class results were not statistically significant.*
 
