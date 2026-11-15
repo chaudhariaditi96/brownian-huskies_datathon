@@ -1,0 +1,6 @@
+,bulk_log2FC,bulk_padj,checks_passed_6_3g,checks_same_dir_6_3g,pseudobulk_sig_cell_classes,pb_same_direction_classes,lr_pairs_both_sig,browser_top_cell_types
+FLT1,2.6,1.1869069308641165e-08,5/5,5/5,none,12/14,none,
+ENG,2.01,2.1229995625546067e-16,5/5,5/5,none,14/14,none,
+LEP,4.22,1.6973678885216552e-06,5/5,5/5,none,12/14,none,
+INHBA,1.72,0.0001362625063826071,5/5,5/5,none,10/14,none,
+CADM3,-1.89,8.665646474676116e-06,4/5,5/5,none,14/14,none,
