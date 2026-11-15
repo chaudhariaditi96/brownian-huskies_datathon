@@ -1,4 +1,4 @@
-# \[Decoding Placental Signaling in Early-Onset Preeclampsia
+# Decoding Placental Signaling in Early-Onset Preeclampsia
 
 **A study of placental gene activity found hundreds of differences in early-onset preeclampsia, but identifying which cells drive them remains a challenge.**
 
