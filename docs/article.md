@@ -68,7 +68,7 @@ A stronger next study would compare early-onset preeclampsia with gestational-ag
 
 ## Data and Code
 
-* **Repository:** \[Add Brownian Huskey GitHub repository URL before submission]
+* **Repository:** [Brownian Huskey GitHub repository](https://github.com/chaudhariaditi96/brownian-huskies_datathon.git)
 * **Bulk placental RNA sequencing:** [GSE203507](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE203507)
 * **Cell-resolved dataset:** [Admati and colleagues' placental dataset](https://doi.org/10.6084/m9.figshare.23264102.v1)
 * **Placental gene browser:** [Zeisel Lab browser](https://storage.googleapis.com/www_zeisellab/PE_web/pe_web_test_v1.html)
