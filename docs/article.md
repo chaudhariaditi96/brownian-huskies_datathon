@@ -10,7 +10,7 @@ By Aditi Chaudhari, Christine Yao, Jason Liu, and Ruchika Mudraganam | Team Brow
 
 ## Introduction
 
-The placenta does more than deliver oxygen and nutrients during pregnancy. Its cells also produce and respond to molecular signals that help coordinate the developing pregnancy. In preeclampsia, a pregnancy complication involving high blood pressure and potential injury to maternal organs, this communication may be disrupted. Early-onset preeclampsia is particularly concerning because it develops before 34 weeks of pregnancy.
+The placenta does more than deliver oxygen and nutrients during pregnancy. Its cells also produce and respond to molecular signals that help coordinate pregnancy development. In preeclampsia, a pregnancy complication involving high blood pressure and potential injury to maternal organs, this communication may be disrupted. Early-onset preeclampsia is particularly concerning because it develops before 34 weeks of pregnancy.
 
 Scientists have already linked preeclampsia to changes in proteins involved in blood vessel function. But a major question remains: **are the differences seen in whole placentas caused by changes within particular cells, or by changes in the mixture of cells that make up the tissue?** Our team examined both possibilities, focusing on genes that may participate in signaling between placental cells.
 
@@ -24,7 +24,7 @@ We analyzed [publicly available placental RNA-sequencing data (GSE203507)](https
 
 We identified **348 genes** with statistically supported differences in activity: **258 were higher** in preeclampsia placentas, and **90 were lower**. To qualify, a gene had to meet both a multiple-testing-adjusted statistical threshold (adjusted *p* below 0.05) and at least a twofold estimated difference between groups. The adjustment helps reduce false discoveries when thousands of genes are tested at once. A twofold change means that estimated activity is approximately doubled or halved, depending on direction.
 
-!\[Volcano plot showing the strength and size of gene activity differences in preeclampsia.](../figures/volcano.png)
+!\[Volcano plot showing the strength and size of gene activity differences in preeclampsia.]figures/volcano.png
 
 *Figure 2. **Hundreds of placental genes differ in early-onset preeclampsia.** A volcano plot displays the estimated change in gene activity (horizontal axis, log2 fold change) against statistical evidence (vertical axis, negative log10 adjusted p value). Genes to the right are higher in preeclampsia. Genes to the left are lower. Highlight the five focus genes in the final exported plot.*
 
