@@ -24,7 +24,7 @@ We analyzed [publicly available placental RNA-sequencing data (GSE203507)](https
 
 We identified **348 genes** with statistically supported differences in activity: **258 were higher** in preeclampsia placentas, and **90 were lower**. To qualify, a gene had to meet both a multiple-testing-adjusted statistical threshold (adjusted *p* below 0.05) and at least a twofold estimated difference between groups. The adjustment helps reduce false discoveries when thousands of genes are tested at once. A twofold change means that estimated activity is approximately doubled or halved, depending on direction.
 
-!\[Volcano plot showing the strength and size of gene activity differences in preeclampsia.]figures/volcano.png
+!\[Volcano plot showing the strength and size of gene activity differences in preeclampsia.](../figures/volcano.png)
 
 *Figure 2. **Hundreds of placental genes differ in early-onset preeclampsia.** A volcano plot displays the estimated change in gene activity (horizontal axis, log2 fold change) against statistical evidence (vertical axis, negative log10 adjusted p value). Genes to the right are higher in preeclampsia. Genes to the left are lower. Highlight the five focus genes in the final exported plot.*
 
