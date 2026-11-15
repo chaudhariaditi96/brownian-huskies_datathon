@@ -23,7 +23,7 @@ Syncytiotrophoblasts play a key role in placental function and maternal-fetal ex
 
 ## Alternative Explanations/Confounders
 
-What else could explain this result? What confounders have you considered?
+An important alternative explanation is that changes in placental cell composition contribute to the higher bulk expression of these genes. Campbell et al. (2023) found that cell-type proportions explained a substantial share of the association between PE and increased FLT-1, LEP, and ENG expression. Gestational age and fetal growth restriction may also affect placental gene expression and are relevant to the clinical groups represented in the original wealth data set (Ackermann et al., 2023). The single-cell data set includes different PE presentations, which may have distinct molecular characteristics (Admati et al., 2023). Differences between the cohorts therefore limit direct comparisons.
 
 ## Proposed Validation Experiment or Follow-up Analysis
 
