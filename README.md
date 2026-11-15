@@ -14,7 +14,9 @@ OpenBio 2026 Datathon, Track 1: Maternal-Fetal Cell Communication in Preeclampsi
 Starter Question 8: What might gene activity reveal about communication between placental cells in preeclampsia?
 
 Which genes encoding signaling ligands or receptors differ between PE and control placentas?
+
 In which placental cell types do these differences occur?
+
 Exploratory: which ligand–receptor pairs between cell types change in PE?
 
 ## Data Used
@@ -23,6 +25,7 @@ Exploratory: which ligand–receptor pairs between cell types change in PE?
 [x] Zeisel/Admati gene browser, for at least three genes (required)
 [x] Admati/Skarbianskis single-cell pseudobulk files (optional)
 [x] LIANA consensus ligand–receptor resource (LIANA [1.10.0])
+
 
 ## How to Run
 
