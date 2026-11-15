@@ -16,20 +16,17 @@ Our original proposal focused on whether syncytiotrophoblast abundance remains r
 - **Sub-question 3 (exploratory):** Which ligand–receptor pairs between cell types change in PE? (pseudobulk)
 
 ## Datasets
-
-List the datasets you will use (see the data catalog).
-
-| Dataset ID | Role | Why This Dataset |
+| Dataset ID / resource | Role | Why this dataset |
 |---|---|---|
-| GSE203507 bulk RNA-seq | 30 villous tissue samples (15 early-onset PE, 15 no_PE); 26,485 genes | Main analysis |
-| Admati/Skarbianskis single-cell | 26 donors (17 PE, 9 control), 14 cell classes; provided as pseudobulk and as the gene browser | Cell-level analysis (one source, not two independent datasets) |
-| Marker table | 9 cell classes, 4 markers each | First assessment of cell mix vs behavior |
-| LIANA consensus ligand–receptor resource (LIANA 1.10.0) | 4,620 ligand–receptor pairs | Defines signaling genes; ligand–receptor analysis |
+| **GSE203507** — bulk placental RNA-seq (`track01_counts_vt.csv`) | Primary differential-expression analysis; 30 placentas (15 EOPE/EOPE+FGR, 15 non-PE) | Tests tissue-level expression differences while accounting for available clinical covariates |
+| **GSE203507 sample metadata** (`track01_metadata_vt.csv`) | PE status, gestational age, FGR, fetal sex, and sample checks | Defines comparison groups, covariates, and sensitivity analyses |
+| **Placental cell-marker matrix** | Marker-gene assessment | Assesses whether cell-class markers shift consistently in bulk tissue |
+| **Admati/Skarbianskis placental pseudobulk counts** (`track01_pseudobulk_counts.csv`) | Within-cell-class expression comparisons; 26 donors (17 PE, 9 controls) across 14 cell classes | Tests whether bulk signals have similar direction within specific cell populations |
+| **Pseudobulk metadata** (`track01_pseudobulk_metadata.csv`) | Donor and cell-class identifiers, PE subtype, clinical covariates | Keeps donor as the biological replicate and identifies potential confounders |
+| **Zeisel Lab placental gene browser** | Gene-expression localization | Reviews which cell populations express the selected genes |
+| **Consensus ligand–receptor resource used in notebook** | Signaling-gene annotation and exploratory interaction scoring | Distinguishes ligand/receptor genes and generates candidate cell-to-cell interactions |
 
-
-GSE203507 bulk RNA-seq (core) and Admati/Skarbianskis single-cell data (pseudobulk extension and gene browser), provided by the OpenBio 2026 Datathon.
-
-
+The bulk and pseudobulk data are from **different cohorts and experimental protocols**; pseudobulk comparisons are complementary evidence, not direct replication of the same patients.
 
 ## Methods
 
@@ -61,7 +58,20 @@ GSE203507 bulk RNA-seq (core) and Admati/Skarbianskis single-cell data (pseudobu
 
 ## Confounders and Controls
 
-List potential confounders and how you will address them.
+## Confounders and Controls
+
+| Concern | How handled / remaining limitation |
+|---|---|
+| **Gestational age and delivery timing** | Included in the primary bulk model. No control placenta was delivered before **29.9 weeks**, so adjustment cannot fully remove differences due to limited overlap. |
+| **Fetal growth restriction (FGR)** | Included in the primary bulk model; checked sensitivity to removing this covariate. |
+| **Fetal sex imbalance** | Tested by adding fetal sex in a sensitivity analysis. |
+| **Outlier S01 and inconsistent clinical labels** | Tested analyses excluding S01 and samples with blood-pressure/label inconsistencies. |
+| **Sequencing batch not in supplied metadata** | **Cannot adjust or formally assess batch effects.** The Ackerman et al. 2023 preprint reports that preterm- and term-birth controls were sequenced together with four EOPE samples (**S16, S20, S21, S22**). Sequencing batches may overlap with case–control status, making technical and biological differences hard to separate with the supplied metadata. This is a possible confounder, **not proof of a batch effect**. See https://doi.org/10.1101/2023.03.08.23286998. |
+| **Cell composition** | Assessed cell markers and exploratory deconvolution. Inferred relative RNA contributions do not directly establish cell numbers. |
+| **Different bulk and single-cell cohorts** | Compared directions rather than treating the datasets as paired or interchangeable. |
+| **Single-cell PE subtype, FGR, and magnesium sulfate exposure** | The pseudobulk cohort includes late-onset PE; FGR and magnesium sulfate exposure are imbalanced. Interpret cell-class results cautiously. |
+| **Small sample sizes and delivery-time tissue** | Treat donor as the biological unit; avoid claims about the onset of disease or causation. |
+
 
 ## Expected Figures
 1. PCA of bulk placental samples: PC1 and PC2, colored by PE status, with clinical groups or covariates identified where useful.
