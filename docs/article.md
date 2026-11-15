@@ -6,7 +6,7 @@ By Aditi Chaudhari, Christine Yao, Jason Liu, and Ruchika Mudraganam | Team Brow
 
 ![Headline figure showing the main finding in placental gene expression](../figures/headline.png)
 
-*Figure 1. **Placental gene activity differs in early-onset preeclampsia.** In the primary comparison, 258 genes showed higher activity, and 90 showed lower activity in preeclampsia placentas, after adjustment for gestational age at delivery and fetal growth restriction. \[Replace this caption if the chosen headline figure shows different data.]*
+*Figure 1. **Placental gene activity differs in early-onset preeclampsia.** In the primary comparison, 258 genes showed higher activity, and 90 showed lower activity in preeclampsia placentas, after adjustment for gestational age at delivery and fetal growth restriction.*
 
 ## Introduction
 
