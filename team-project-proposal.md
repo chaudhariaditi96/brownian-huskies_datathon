@@ -5,14 +5,16 @@
 - **Team name:**
 Brownian Huskies
 - **Team members:**
-  Aditi Chaudhari - chaudhari.adit@northeastern.edu
-  Christine
-  Jason Liu - liu.liangc@northeastern.edu
-  Ruchika Mudraganam - mudraganam.r@northeastern.edu
+- Aditi Chaudhari - chaudhari.adit@northeastern.edu
+- Christine
+- Jason Liu - liu.liangc@northeastern.edu
+- Ruchika Mudraganam - mudraganam.r@northeastern.edu
 
 ## Project Title
 Investigating Differential Gene Expression, Cell-Type-Specific Signaling and Potential Intercellular Communication in Early-Onset Preeclampsia
 ## Problem Statement
+Preeclampsia (PE) is a pregnancy complication linked to placental dysfunction and impaired vascular regulation. Although changes in angiogenic factors such as FLT1 and ENG are well documented, cell type-specific changes and possible alterations in intercellular communication remain poorly understood.
+This project aims to examine differential expression of signaling-related genes in early-onset preeclampsia, identify the placental cell types associated with these changes, and investigate potential changes in ligand-receptor interactions among placental cells.
 
 What problem are you trying to solve? Why is it important?
 
