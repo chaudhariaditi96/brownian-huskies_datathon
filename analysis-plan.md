@@ -1,7 +1,11 @@
 # Analysis Plan
 
 ## Research Question
-What might gene activity reveal about communication between placental cells in preeclampsia?
+**Starter Question 8:** What might gene activity reveal about communication between placental cells in preeclampsia?
+
+- **Sub-question 1:** Which genes encoding signaling ligands or receptors differ between PE and control placentas? (bulk RNA-seq)
+- **Sub-question 2:** In which placental cell types do these differences occur? (pseudobulk, gene browser)
+- **Sub-question 3 (exploratory):** Which ligand–receptor pairs between cell types change in PE? (pseudobulk)
 
 ## Datasets
 
