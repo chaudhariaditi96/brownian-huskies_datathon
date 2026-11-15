@@ -21,13 +21,12 @@ We will use bulk RNA sequencing and single-cell-derived pseudobulk transcriptomi
 Our analysis will involve:
 1.	Differential gene expression analysis: Use PCA and DESeq2 to identify genes with altered expression in PE placentas while accounting for gestational age and fetal growth restriction.
 2.	Cell-type-specific analysis: Use placental cell markers, a single-cell gene browser, and pseudobulk data to investigate which cell populations express the identified genes, particularly trophoblasts and endothelial cells.
-3.	Intercellular signaling analysis: Explore signaling-related genes and candidate ligand-receptor interactions to identify potential changes in communication between placental cell population
-
+3.	Intercellular signaling analysis: Explore signaling-related genes and candidate ligand-receptor interactions to identify potential changes in communication between placental cell populations
 
 ## Expected Outputs
 
-What figures, tables or models do you plan to produce?
+We expect to produce a list of differentially expressed signaling-related genes, identify the placental cell populations associated with these changes, and characterize potential alterations in angiogenic pathways.
+The project will include visualizations of gene expression differences, cell type-specific expression patterns, and exploratory ligand-receptor interactions.
 
 ## Hypothesis
-
-State your initial hypothesis.
+Syncytiotrophoblast abundance remains relatively unchanged in early-onset PE placentas, while these cells show increased expression of anti-angiogenic signaling genes. These changes may reflect altered ligand-receptor interactions between trophoblasts and endothelial cells, potentially contributing to placental vascular dysfunction and disrupted maternal-fetal communication.
